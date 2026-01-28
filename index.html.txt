@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Firavun’un Gözü | Manipülasyon Analiz AI</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <header class="hero">
+    <h1>FIRAVUN’UN GÖZÜ</h1>
+    <p>Sosyal Medyada Manipülasyon Analiz Eden Yapay Zekâ Sistemi</p>
+    <a href="#about" class="btn">Projeyi İncele</a>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2>Projenin Tanımı</h2>
+    <p>
+      Firavun’un Gözü, sosyal medya içeriklerinin manipülasyon, propaganda,
+      duygu sömürüsü ve yanlış bilgi barındırma riskini otomatik analiz eden
+      yapay zekâ destekli bir algı tespit platformudur.
+    </p>
+  </section>
+
+  <!-- FEATURES -->
+  <section class="section dark">
+    <h2>Temel Özellikler</h2>
+
+    <div class="grid">
+      <div class="card">
+        <h3>Çoklu İçerik Analizi</h3>
+        <p>Metin, görsel, video, link ve PDF içerikleri analiz eder.</p>
+      </div>
+
+      <div class="card">
+        <h3>Manipülasyon Türü Tespiti</h3>
+        <p>Duygusal manipülasyon, propaganda ve belirsizlik sinyallerini sınıflandırır.</p>
+      </div>
+
+      <div class="card">
+        <h3>Risk Skoru</h3>
+        <p>0–100 arası Manipülasyon Risk Yüzdesi üretir.</p>
+      </div>
+
+      <div class="card">
+        <h3>Görsel & Video Analizi (V2)</h3>
+        <p>Deepfake şüpheleri, sembolik manipülasyon ve duygu tespiti.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROADMAP -->
+  <section class="section">
+    <h2>Yol Haritası</h2>
+    <ul>
+      <li><b>V1:</b> Metin analizi + manipülasyon skoru</li>
+      <li><b>V2:</b> Görsel/video analiz motoru + sosyal medya API</li>
+      <li><b>V3:</b> Deepfake tespiti + kurumsal dashboard</li>
+    </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section dark">
+    <h2>İletişim</h2>
+    <p>Projeye yatırım, iş birliği veya demo talebi için ulaşın:</p>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Adınız" required />
+      <input type="email" placeholder="E-posta" required />
+      <textarea placeholder="Mesajınız"></textarea>
+      <button type="submit">Gönder</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 Firavun’un Gözü — Algı Manipülasyonuna Karşı Dijital Kalkan</p>
+  </footer>
+
+</body>
+</html>

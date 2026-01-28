@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0a0a0a;
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(to bottom, black, #1a1a1a);
+}
+
+.hero h1 {
+  font-size: 60px;
+  color: gold;
+}
+
+.hero p {
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 25px;
+  background: gold;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
+.section {
+  padding: 70px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h2 {
+  color: gold;
+  margin-bottom: 20px;
+}
+
+.dark {
+  background: #111;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+}
+
+.card {
+  background: #1c1c1c;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid gold;
+}
+
+.card h3 {
+  color: gold;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  padding: 12px;
+  background: gold;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: black;
+  opacity: 0.6;
+}
