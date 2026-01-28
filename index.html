@@ -11,10 +11,16 @@
 
   <!-- HERO -->
   <header class="hero">
-    <h1>FIRAVUN’UN GÖZÜ</h1>
-    <p>Sosyal Medyada Manipülasyon Analiz Eden Yapay Zekâ Sistemi</p>
-    <a href="#about" class="btn">Projeyi İncele</a>
-  </header>
+  <h1>FIRAVUN’UN GÖZÜ</h1>
+  <p>Sosyal Medyada Manipülasyon Analiz Eden Yapay Zekâ Sistemi</p>
+
+  <a href="#about" class="btn">Projeyi İncele</a>
+
+  <!-- WhatsApp Butonu -->
+  <a class="btn" href="https://wa.me/905433399334" target="_blank">
+    WhatsApp ile Hemen Ulaş
+  </a>
+</header>
 
   <!-- ABOUT -->
   <section id="about" class="section">
@@ -65,16 +71,16 @@
 
   <!-- CONTACT -->
   <section class="section dark">
-    <h2>İletişim</h2>
-    <p>Projeye yatırım, iş birliği veya demo talebi için ulaşın:</p>
+  <h2>İletişim</h2>
+  <p>Projeye yatırım, iş birliği veya demo talebi için WhatsApp üzerinden ulaşın:</p>
 
-    <form class="contact-form">
-      <input type="text" placeholder="Adınız" required />
-      <input type="email" placeholder="E-posta" required />
-      <textarea placeholder="Mesajınız"></textarea>
-      <button type="submit">Gönder</button>
-    </form>
-  </section>
+  <div class="contact-form">
+    <input id="name" type="text" placeholder="Adınız" required />
+    <textarea id="message" placeholder="Mesajınız"></textarea>
+
+    <button onclick="sendWhatsApp()">WhatsApp’tan Gönder</button>
+  </div>
+</section>
 
   <footer>
     <p>© 2026 Firavun’un Gözü — Algı Manipülasyonuna Karşı Dijital Kalkan</p>
@@ -82,3 +88,21 @@
 
 </body>
 </html>
+<script>
+  function sendWhatsApp() {
+    let name = document.getElementById("name").value;
+    let message = document.getElementById("message").value;
+
+    let phoneNumber = "905433399334"; // BURAYA kendi numaranı yaz
+
+    let url =
+      "https://wa.me/" +
+      phoneNumber +
+      "?text=" +
+      encodeURIComponent(
+        "Merhaba, ben " İLKER AVCI ". Firavun’un Gözü projesi hakkında: " + message
+      );
+
+    window.open(url, "_blank");
+  }
+</script>
